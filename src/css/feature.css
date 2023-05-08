@@ -1,0 +1,24 @@
+.home-feature{
+    margin-top: 5vh;
+    min-height: 60vh;
+}
+.feature-products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 40px;
+    margin: 40px;
+    justify-content: center;
+}
+.intro-data{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+.common-heading{
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 29px;
+}

@@ -1,0 +1,156 @@
+.single-format{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    font-family:'Poltawski Nowy', serif;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.main-image{
+    margin-top: 120px;
+    margin-bottom: 140px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.single-page-details{
+    border: 1px solid rgb(107, 107, 107);
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:  #24262b;
+    color:#bbbb;
+    
+}
+.single-page-details >.price{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.single-page-details > p{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.decrease {
+    background-color:#fff;
+    border: 0px solid#bbbb;
+    margin-right: 35px;
+}
+.setincrease {
+    background-color:#fff;
+    border: 0px solid#bbbb;
+}
+.stars{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    flex-direction: row;
+}
+.addtocart{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.amount{
+    text-align: center;
+}
+p.description{
+    font-size: 16px;
+
+}
+.description{
+    margin-left: 20px;
+}
+.addtocart{
+    color:#bbbb;
+    background-color:  #24262b;
+    border: 0px solid  #24262b;
+
+}
+.toggle-button{
+    margin-right: 300px;
+    margin-top: 20px;
+}
+.toggle-button > button{
+    color:#bbbb;
+    background-color:  #24262b;
+    border: 0px solid  #24262b ;
+}
+.add-cart{
+    border: 0px solid  #24262b;
+    align-content: center;
+    color: #24262b;
+    margin-left: 0;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.price>p{
+    font-size: 15px;
+}
+.price > h4{
+    margin-bottom: 10px;
+    
+}
+.price > p>p{
+   text-decoration: line-through;
+   font-size: 15px;
+}
+p.product-name{
+    color: white;
+}
+p.product-name:hover{
+    margin-left: 30px;
+    transition: all 0.3s ease; 
+}
+.singlepage-details{
+    display: flex;
+    flex-direction: row;
+}
+span.amount{
+    text-decoration: none;
+}
+
+.btn{
+    color:#000000bb;
+    background-color:  #bbb;
+    border: 0px solid  #24262b;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 30px;
+}
+.btn:hover{
+    margin-left: 8px;
+    transition: 0.3s linear;
+}
+
+button.setdecrease{
+    margin-right: 30px;
+}
+.details{
+    width: 100%;
+    background-color: #24262b;
+    border-radius: 10px;
+    color: #bbb;
+    line-height: 20px;
+    text-align: center;
+}
+.details p{
+    font-size: 24px;
+    color: #bbb;
+    /* margin-left: 100px; */
+}
+.details p:hover{
+    margin-left:15px ;
+    transition: 0.3s linear;
+}

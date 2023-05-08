@@ -1,0 +1,103 @@
+.login{
+    height: 95vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.login-form{
+    background-color: #24262b;
+    border-radius: 10px;
+    height: 60vh;
+    width: 60vh;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 57px;
+}
+.login-form > h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #bbb;
+}
+label{
+    color: #bbb;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+form > input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #bbb;
+}
+.company{
+    height: 60vh;
+    width: 60vh;
+    background-color: #24262b;
+    border-radius: 10px;
+    
+}
+form > button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.submit{
+    color: #bbb;
+    border: 1px solid #bbb;
+    background-color: #24262b;
+    margin-left: 200px;
+    max-width: 150px;
+    cursor: pointer;
+}
+.submit:hover{
+     font-size: 18px;
+     
+}
+.link{
+    text-transform: capitalize;
+    float: right;
+}
+.link > a{
+ color: #bbb;
+ text-decoration: underline;
+ 
+}
+.logo{
+    color: #bbb;
+    font-size: 30px;
+    text-align: center;
+}
+.company-privacy{
+    margin: 30px;
+}
+.company-privacy > ul{
+    color: #bbb;
+    line-height: 40px;
+    margin-top: 50px;
+}
+.company-privacy > ul > li{
+    list-style:upper-roman;
+}
+.company-privacy > .company-link{
+    color: #bbb;
+    text-decoration: underline;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+.company-link > a{
+    color: #bbb;
+    line-height: 30px;
+}

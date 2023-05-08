@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap');
+.product-filter{
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-right: 0px;
+    background-color:  #24262b;
+    border-radius: 10px;
+    max-height: 40vh;
+}
+.filter-search{
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.category-filter>h4{
+    margin-top: 20px;
+    color:#ffffff;
+    position: relative;
+    margin-bottom: 10px;
+}
+h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #e91e63;
+    height: 2px;
+    width: 50px;
+}
+.filter-search>.flex1 >form >input{
+    border-radius: 10px;
+    padding-top: 6px;
+    
+    background-color:#24262b;
+    color:#bbbb;
+}
+.filter-price > input {
+    background-color: #ffffff;
+    color:#bbbb!important;
+}
+
+.filter-price{
+
+    margin-top: 20px;
+    color:#bbbb;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.price-range{
+    background-color:  #24262b;
+
+    color: #ffffff;
+}
+.clear-filters>button{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#bbbb;
+    border: 0px solid  #24262b;
+    background-color:  #24262b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.clear-filters > button:hover{
+    margin-left: 8px;
+    color: white;
+    transition: all 0.3s ease;
+}
+ul{
+    list-style: none;
+    justify-content: center;    
+}
+ul > li >button{
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 500;
+    color:#bbbb;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    background-color:  #24262b;
+    border: 0px solid  #24262b;
+}
+ul > li > button:hover{
+    margin-right: 8px;
+    color: white;
+    transition: all 0.3s ease;
+}
+button{
+    margin-left: 30px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+}

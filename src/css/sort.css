@@ -1,0 +1,47 @@
+.sorting-list > button{
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sorting-list>button>.icon{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sorting-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sort-label{
+   align-items: center;
+}
+.sort-btn{
+    align-items: center;
+    border: 0px solid ;
+    background-color: #ffffffbb;
+    color: #bbb;
+}
+select{
+    padding: 5px;
+    max-width: 300px;
+    margin-top: 30px;
+    color: #bbbb;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:  #24262b;
+}
+ option :hover{
+    border-radius: 5px;
+    background-color: black;
+}
+.product-data{
+    text-align: center;
+}
+.active {
+    
+    border-radius: 17px;
+    color: #000000;
+  }

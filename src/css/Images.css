@@ -1,0 +1,37 @@
+.my-images{
+    background-color: black;
+    min-width: 500px;
+    min-height: 300px;
+    color: #fff;
+    margin: 10px;
+}
+.product-crousel{
+    position: relative;
+}
+.crousel-container{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-left: 30px;
+}
+.pre-btn,.next-btn{
+    border: none;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,0);
+}
+.next-btn{
+   right: 0;
+   
+}
+.next-btn>p,.pre-btn>p{
+    color: #000000;
+    width: 40px;
+    font-size: 29px;
+    border-radius: 10px;
+    background-color: #bbbbbb8f;
+}

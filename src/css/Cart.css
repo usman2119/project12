@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap');
+p{
+    display: inline;
+    line-height: 10px;
+
+}
+.cart-heading{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 130px;
+    padding-right: 130px;    
+    text-align: center;
+}
+.cart-container{
+    min-height:60vh;
+}
+.carttotal{
+    float: right;
+    margin-right: 170px;
+}
+p.total{
+    line-height: 40px;
+}
+p{
+    line-height: 40px ;
+    font-size: 20px;
+}
+.total-price{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+hr.line{
+    border: 1px solid rgb(184, 183, 183);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.clear-continue{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+button.clear{
+    float: right;
+    margin-top: 1px;
+    align-items: center;
+    max-width: 120px;
+    margin-left: 200px;
+    border: 0px solid white;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #24262b;
+    text-decoration: none;
+}
+button.continue{
+    float: left;
+    max-width: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color:  #24262b;
+    text-decoration: none;
+}
+.continue-p{
+    font-family:'Poltawski Nowy', serif;
+    font-size: 21px;
+    line-height: 40px;
+}
+.clear-p{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 21px;
+}
